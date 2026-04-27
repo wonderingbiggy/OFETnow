@@ -1,0 +1,42 @@
+{
+  "repository": "OFETNow-ML",
+  "version": "1.0.0",
+  "manuscript": "Machine-Learning Accelerated Discovery of Polymer Semiconductors using a Closed-Loop Strategy from High-Fidelity Data to Experimental Realization",
+  "release_scope": "Pre-trained models, inference workflow, and future-blind benchmark dataset. The full training dataset is not included.",
+  "models": {
+    "mobility_classifier": {
+      "file": "mobility_classifier.pkl",
+      "selected_features": "mobility_selected_features.txt",
+      "task": "Binary mobility tier classification",
+      "classes": [ "Low", "High" ],
+      "threshold": "0.5 cm2 V-1 s-1"
+    },
+    "carrier_type_classifier": {
+      "file": "carrier_type_classifier.pkl",
+      "selected_features": "carrier_type_selected_features.txt",
+      "task": "Carrier transport type classification",
+      "classes": [ "p-type", "n-type", "ambipolar" ]
+    }
+  },
+  "preprocessing": {
+    "bundle": "preprocessing_bundle.pkl",
+    "metadata": "preprocessing_bundle_metadata.json",
+    "all_features": "all_features.txt"
+  },
+  "released_data": {
+    "future_blind_benchmark": "../data/future_blind_benchmark.csv",
+    "future_blind_predictions": "../data/future_blind_predictions.csv",
+    "training_dataset_included": false
+  },
+  "software": {
+    "python": "3.10",
+    "scikit_learn": "1.7.2",
+    "xgboost": "2.1.4",
+    "rdkit": "2024.09.6"
+  },
+  "license": {
+    "code": "MIT",
+    "models": "CC BY 4.0",
+    "benchmark_data": "CC BY 4.0"
+  }
+}

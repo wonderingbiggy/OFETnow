@@ -1,0 +1,14 @@
+{
+  "bundle_file": "preprocessing_bundle.pkl",
+  "version": "1.0.0",
+  "description": "Inference-only preprocessing bundle for OFETNow-ML models.",
+  "sklearn_version": "1.7.2",
+  "objects": {
+    "onehot_encoder": "<class 'sklearn.preprocessing._encoders.OneHotEncoder'>",
+    "robust_scaler": "<class 'sklearn.preprocessing._data.RobustScaler'>",
+    "minmax_scaler": "<class 'sklearn.preprocessing._data.MinMaxScaler'>",
+    "zscore_scaler": "<class 'sklearn.preprocessing._data.StandardScaler'>"
+  },
+  "training_data_included": false,
+  "purpose": "Inference-only preprocessing for OFETNow-ML models."
+}
