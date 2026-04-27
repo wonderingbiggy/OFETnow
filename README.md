@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20%26%20Models-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Pre-trained machine-learning models and inference workflow for predicting organic field-effect transistor (OFET) performance from polymer structure and device parameters.
+Pre-trained machine-learning models and inference workflow for predicting organic field-effect transistor (OFET) performance from polymer structure and device parameters, for the database, please visit http://ofetnow.top.
 
 > **Machine-Learning Accelerated Discovery of Polymer Semiconductors using a Closed-Loop Strategy from High-Fidelity Data to Experimental Realization**
 
