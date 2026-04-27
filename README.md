@@ -24,7 +24,7 @@ Both models use device parameters, Morgan fingerprints (radius 8, 2048 bits), an
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/OFETNow-ML.git
+git clone https://github.com/wonderingbiggy/OFETNow.git
 cd OFETNow-ML
 pip install -r requirements.txt
 ```
