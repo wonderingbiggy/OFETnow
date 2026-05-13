@@ -79,9 +79,6 @@ Code is released under the [MIT License](LICENSE). Models and benchmark data are
 ```bibtex
 @article{OFETNow-ML,
   title   = {Machine-Learning Accelerated Discovery of Polymer Semiconductors using a Closed-Loop Strategy from High-Fidelity Data to Experimental Realization},
-  author  = {},
-  journal = {},
-  year    = {},
-  doi     = {}
-}
+  author  = {Yuan-Kai Li, Si-Lu Li, Hao-Tian Wu, Ze-Fan Yao, Jie-Yu Wang, Jian Pei},
+  Under review
 ```
