@@ -3,7 +3,7 @@
     "entry_id": 1,
     "polymer_name": "pPyDPP1-T",
     "SMILES": "O=C1C(C2=C(C3=NC=C(C4=CC=CS4)C=C3)N1CCCC(CCCCCCCCCC)CCCCCCCCCC)=C(C5=NC=CC=C5)N(CCCC(CCCCCCCCCC)CCCCCCCCCC)C2=O",
-    "N_AVE": 19.9,
+    "N_AVE": 20.8,
     "PDI": 1.60,
     "Aspect_Ratio": 20,
     "Capacitance": 3.7,
