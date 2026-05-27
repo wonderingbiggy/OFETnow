@@ -303,10 +303,15 @@ def build_all_features(
         selected_descriptor_names=selected_descriptor_names,
     )
 
-    X_all_array = np.concatenate(
+     X_all_array = np.concatenate(
         [X_numeric, X_categorical, X_morgan, X_descriptor],
         axis=1,
     )
+
+    DROP_ZERO_COL_IDX = 15 
+
+    if X_all_array.shape[1] == len(all_features) + 1:
+        X_all_array = np.delete(X_all_array, DROP_ZERO_COL_IDX, axis=1)
 
     if X_all_array.shape[1] != len(all_features):
         raise ValueError(
