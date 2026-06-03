@@ -58,8 +58,8 @@ OFETNow-ML/
 ├── LICENSE
 ├── CITATION.cff
 ├── requirements.txt
-├── models/                 # Pre-trained models, scalers, and feature lists
-├── data/                   # Input templates, example data, and benchmark dataset
+├── models/                 # Pre-trained models, ablation models, scalers, and feature lists of pre-trained models and ablation models
+├── data/                   # Input templates, example data, benchmark dataset, and a complete copy of raw data in database
 ├── notebooks/              # Interactive prediction notebook
 └── examples/               # Command-line prediction script
 ```
