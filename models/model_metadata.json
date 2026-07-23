@@ -1,0 +1,60 @@
+{
+  "repository": "OFETNow-ML",
+  "version": "1.0.0",
+  "manuscript": "Machine-Learning Prediction of Carrier Mobility and Polarity Type of Polymer Semiconductors: from High-Fidelity Data to Experimental Realization",
+  "release_scope": "Archived training matrices, pre-trained models, model-training and inference workflows, and future-blind benchmark dataset.",
+  "models": {
+    "mobility_classifier": {
+      "file": "mobility_classifier.pkl",
+      "selected_features": "mobility_selected_features.txt",
+      "task": "Binary mobility tier classification",
+      "random_state": 847570839,
+      "random_state_note": "Randomly selected from the ten archived cross-validation seeds.",
+      "classes": [
+        "Low",
+        "High"
+      ],
+      "threshold": "0.5 cm2 V-1 s-1"
+    },
+    "carrier_type_classifier": {
+      "file": "carrier_type_classifier.pkl",
+      "selected_features": "carrier_type_selected_features.txt",
+      "task": "Carrier transport type classification",
+      "random_state": 847570839,
+      "random_state_note": "Randomly selected from the ten archived cross-validation seeds.",
+      "classes": [
+        "p-type",
+        "n-type",
+        "ambipolar"
+      ]
+    }
+  },
+  "preprocessing": {
+    "bundle": "preprocessing_bundle.pkl",
+    "metadata": "preprocessing_bundle_metadata.json",
+    "all_features": "all_features.txt"
+  },
+  "released_data": {
+    "future_blind_benchmark": "../data/future_blind.csv",
+    "future_blind_predictions": "../data/future_blind_predictions.csv",
+    "training_features": "../data/training_features.csv",
+    "training_targets": "../data/training_targets.csv",
+    "cross_validation_seeds": "cv_random_seeds.txt",
+    "training_dataset_included": true
+  },
+  "software": {
+    "python": "3.9",
+    "numpy": "2.0.2",
+    "pandas": "2.3.1",
+    "scikit_learn": "1.6.1",
+    "xgboost": "2.1.4",
+    "joblib": "1.5.3",
+    "rdkit": "2024.9.6"
+  },
+  "license": {
+    "code": "MIT",
+    "models": "CC BY 4.0",
+    "data": "CC BY 4.0",
+    "license_file": "../DATA_MODEL_LICENSE.md"
+  }
+}
