@@ -1,0 +1,9 @@
+model_training_outputs/
+outputs/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local edit backups
+*.before_*.ipynb
+*.before_*.json

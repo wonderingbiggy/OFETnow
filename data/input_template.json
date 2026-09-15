@@ -1,0 +1,20 @@
+[
+  {
+    "entry_id": "",
+    "polymer_name": "",
+    "SMILES": "",
+    "Mn_Kda": null,
+    "N_AVE": null,
+    "PDI": null,
+    "Aspect_Ratio": null,
+    "Capacitance": null,
+    "GATE": "",
+    "Dielectric": "",
+    "Fabrication_Method": "",
+    "Solvent_of_Spin_Coating": "",
+    "Test_Environment": "",
+    "Type": "",
+    "S/D": "",
+    "Annealing_Temperature": null
+  }
+]
